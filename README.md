@@ -1,2 +1,7 @@
 # Server-Links-Derma-NPC-
-A Simple, Easy To Config, NPC
+
+CONFIG - 
+
+server_links > lua > entities > npc > cl_init.lua > Line 116 - 137
+
+- CONFIG
