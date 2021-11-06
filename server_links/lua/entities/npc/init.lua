@@ -3,7 +3,7 @@ AddCSLuaFile("shared.lua")
 include("shared.lua")
 
 function ENT:Initialize()
-	self:SetModel("models/Humans/Group01/male_02.mdl")
+	self:SetModel("models/Humans/Group01/male_02.mdl") -- What Model The NPC Will Be.
 	self:SetHullType( HULL_HUMAN ) -- Sets the hull type, used for movement calculations amongst other things.
 	self:SetHullSizeNormal( )
 	self:SetNPCState( NPC_STATE_SCRIPT )
